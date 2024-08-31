@@ -1,0 +1,60 @@
+.input {
+    border: 1px black solid;
+    border-radius: 2px;
+    margin: 2vh 0;
+}
+
+.userInput {
+    padding: 0 1vw;
+    width: 30vw;
+}
+
+.suggestion {
+    background-color: white;
+    width: 30vw;
+}
+
+.searchBtn {
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 4px;
+    background-image: linear-gradient(rgba(255, 255, 255), rgba(190,190,190));
+    margin-left: 1vw;
+    margin-top: 2vh;
+}
+
+.arrowImg {
+    width: 4vw;
+}
+
+.btnText {
+    padding-right: 2vw;
+}
+
+@media screen and (max-width: 700px) {
+    .userInput {
+        font-size: small;
+    }
+
+    .btnText {
+        font-size: small;
+    }
+
+    .searchBtn {
+        padding: 0.5vh 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .userInput {
+        width: fit-content;
+    }
+
+    .btnText {
+        display: none;
+    }
+
+    .arrowImg {
+        width: 10vw;
+    }
+}
